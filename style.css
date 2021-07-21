@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding:0px 15px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-contain{
+    display: flex;
+}
+
+#nav-contain li{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#nav-contain li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.firstSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.firstSection::before{
+        content: '';
+        background: url('Image/newpic.jpg') 
+            no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-right: 40%;  
+}
+
+.firsthalf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.secondhalf{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondhalf img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-big{
+    font-size: 50px;
+}
+
+.text-small{
+    font-size: 25px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 80px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.btn{
+    padding: 6px 10px;
+   vertical-align: middle;
+
+}
+
